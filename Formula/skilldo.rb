@@ -27,6 +27,6 @@ class Skilldo < Formula
   end
 
   test do
-    assert_match "skilldo", shell_output("#{bin}/skilldo --version")
+    assert_match "skilldo", shell_output("#{bin}/skilldo --help")
   end
 end
