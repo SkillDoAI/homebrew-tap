@@ -1,24 +1,24 @@
 class Skilldo < Formula
   desc "Generate SKILL.md rules files from library source code"
   homepage "https://github.com/SkillDoAI/skilldo"
-  version "0.1.9"
+  version "0.1.10"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/SkillDoAI/skilldo/releases/download/v0.1.9/skilldo-v0.1.9-darwin-arm64.tar.gz"
-      sha256 "2ec2148a357c663cc8a296137d21414c5a1443e4f75b418151d78c82b39297c4"
+      url "https://github.com/SkillDoAI/skilldo/releases/download/v0.1.10/skilldo-v0.1.10-darwin-arm64.tar.gz"
+      sha256 "9f9d5feb6e1c365e354d5de1e80672550c358a22cbda19d5794e0eb92dca07af"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/SkillDoAI/skilldo/releases/download/v0.1.9/skilldo-v0.1.9-linux-amd64.tar.gz"
-      sha256 "46179b0d57d1fbb36918bed2a0d8a15c5766c54ae6349cbee53956b7a963aa26"
+      url "https://github.com/SkillDoAI/skilldo/releases/download/v0.1.10/skilldo-v0.1.10-linux-amd64.tar.gz"
+      sha256 "7958d67427ba8603bcefc8e389b144ba4302ca3cfdb0ed30706bd166c468396b"
     end
     on_arm do
-      url "https://github.com/SkillDoAI/skilldo/releases/download/v0.1.9/skilldo-v0.1.9-linux-arm64.tar.gz"
-      sha256 "25f9f14d5082c97a81ec24440997530e608ce3163cf4633e3079385624bd1b10"
+      url "https://github.com/SkillDoAI/skilldo/releases/download/v0.1.10/skilldo-v0.1.10-linux-arm64.tar.gz"
+      sha256 "1b92a18e17e7d7a21298e2d0aa077753bfcff4f20833b3c59c51c5be57773c08"
     end
   end
 
