@@ -1,24 +1,24 @@
 class Llmposter < Formula
   desc "Mock LLM API server — fixture-driven, deterministic responses for testing"
   homepage "https://github.com/SkillDoAI/llmposter"
-  version "0.4.8"
+  version "0.5.0"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/SkillDoAI/llmposter/releases/download/v0.4.8/llmposter-v0.4.8-darwin-arm64.tar.gz"
-      sha256 "3299ebffb04d62dc7943cb81cfad582cb3fa7ea6f9e3f610a203b890cca7ec46"
+      url "https://github.com/SkillDoAI/llmposter/releases/download/v0.5.0/llmposter-v0.5.0-darwin-arm64.tar.gz"
+      sha256 "88aae7a31e7ff71ba8681d1046d74bfc91f838d0a1a93d58863275d75c47595b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/SkillDoAI/llmposter/releases/download/v0.4.8/llmposter-v0.4.8-linux-amd64.tar.gz"
-      sha256 "00286dc983db662d03fc1e4697280db808be75a3eddd3ec88cbdefa9b9eeb3d9"
+      url "https://github.com/SkillDoAI/llmposter/releases/download/v0.5.0/llmposter-v0.5.0-linux-amd64.tar.gz"
+      sha256 "a95ecaea6ae290b451d50c14e47ad6538af5df1904cb5f96cc17d04780c3c09a"
     end
     on_arm do
-      url "https://github.com/SkillDoAI/llmposter/releases/download/v0.4.8/llmposter-v0.4.8-linux-arm64.tar.gz"
-      sha256 "2e9be690d5c60292fa213a904d058b9bab3f5328a7d55cd015c7b08eb95f3b08"
+      url "https://github.com/SkillDoAI/llmposter/releases/download/v0.5.0/llmposter-v0.5.0-linux-arm64.tar.gz"
+      sha256 "603d9991489768521fee59862fc96533d55b198be7df00e79009a1d876978d16"
     end
   end
 
